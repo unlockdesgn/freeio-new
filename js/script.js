@@ -374,7 +374,16 @@
         }); 
         $(".drop_btn4").on('click',function(){
             $(".drop_content4").toggle();
-        });        
+        });
+
+        // $(".ht-close-icon").on("click",function(){
+        //   $(".header-top-home11").hide();
+        //   this.Hide();
+        // });
+
+        // $(".ht-close-icon").on("click",function(){
+        //   $(".header-top-home11, .header-top-home12").addClass("d-none");
+        // });
     });
 
     /*----------- Addclass Remove Class for Home 2 Accordion ----------*/
