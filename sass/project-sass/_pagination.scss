@@ -26,7 +26,7 @@
     &.active{
       .page-link{
         background-color: $theme-color;
-        color: $white-color;        
+        color: $white-color;
       }
     }
   }
@@ -42,5 +42,15 @@
     padding: 0;
     text-align: center;
     width: 40px;
+  }
+  &.dark-style{
+    .page-item{
+      &.active{
+        .page-link{
+          background-color: $dark-color;
+          color: $white-color;
+        }
+      }
+    }
   }
 }

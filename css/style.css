@@ -9319,6 +9319,10 @@ li.mm-listitem:focus {
   text-align: center;
   width: 40px;
 }
+.mbp_pagination.dark-style .page-item.active .page-link {
+  background-color: #222222;
+  color: #ffffff;
+}
 
 /*	ProgressBar Styles  */
 .progressbar-style1 {
@@ -12049,6 +12053,10 @@ input:focus-visible {
 
 .maxw1400 {
   max-width: 1400px;
+}
+
+.maxw1430 {
+  max-width: 1430px;
 }
 
 .maxw1600 {
