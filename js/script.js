@@ -376,14 +376,13 @@
             $(".drop_content4").toggle();
         });
 
-        // $(".ht-close-icon").on("click",function(){
-        //   $(".header-top-home11").hide();
-        //   this.Hide();
-        // });
+        $(".ht-close-icon").on("click",function(){
+          $(".header-top-home11").hide();
+        });
 
-        // $(".ht-close-icon").on("click",function(){
-        //   $(".header-top-home11, .header-top-home12").addClass("d-none");
-        // });
+        $(".ht-close-icon").on("click",function(){
+          $(".header-top-home12").hide();
+        });
     });
 
     /*----------- Addclass Remove Class for Home 2 Accordion ----------*/
